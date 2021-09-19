@@ -18,8 +18,6 @@ function App() {
         <Route path="/search/:word?" component={ShopScreen}></Route>
         <Route path="/shop/:categoryName?/:id?" component={ShopScreen}></Route>
         <Route path="/product/:id" component={ShopScreen}></Route>
-        {/* <Route path="/category/:categoryName" component={ShopScreen}></Route> */}
-        {/* <Route path="/shop/:categorytName?" component={ShopScreen}></Route> */}
         <Route path="/cart" component={CartScreen}></Route>
         <Route path="/" component={HomeScreen} exact></Route>
       </main>
